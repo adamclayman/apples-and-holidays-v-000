@@ -61,7 +61,7 @@ def all_supplies_in_holidays(holiday_hash)
       if key == :new_years
         puts "  New Years: #{attributes.join(", ")}"
       elsif key == :fourth_of_july
-        puts "  Fourth of July: #{attributes.join(", ")}"
+        puts "  Fourth Of July: #{attributes.join(", ")}"
       else
         puts "  #{key.capitalize}: #{attributes.join(", ")}"
       end
